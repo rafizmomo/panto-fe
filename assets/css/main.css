@@ -162,12 +162,6 @@ html .text-orange-disable {
   opacity: 0.3;
 }
 
-html .img-over {
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 @media only screen and (min-width: 993px) {
   html .navbar {
     padding: 35px 0px;
@@ -444,9 +438,9 @@ html #app-exp .app-exp-card .app-exp-content {
   margin-bottom: 24px;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 960px) {
   html #app-mat {
-    padding: 270px 0px 308px 0px;
+    padding: 270px 0px 700px 0px !important;
   }
 }
 
