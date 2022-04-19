@@ -45,10 +45,18 @@
 @include font-face(Gilroy, "../fonts/Gilroy-Heavy", 900, normal, ttf);
 @include font-face(Gilroy, "../fonts/Gilroy-HeavyItalic", 900, italic, ttf);
 
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    position:relative;
+    overflow-x: hidden;
+}
 html{
     font-family: "Gilroy", sans-serif;
     
-    overflow-x: hidden;
+    
 
       .carousel-control-prev,
     .carousel-control-next {
