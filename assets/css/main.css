@@ -416,7 +416,7 @@ html #app-exp .app-exp-card .app-exp-subtitle {
 
 @media only screen and (max-width: 960px) {
   html #app-exp .app-exp-card .app-exp-subtitle {
-    margin-top: 120px !important;
+    margin-top: 0px !important;
   }
 }
 
