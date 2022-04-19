@@ -1,0 +1,816 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/Gilroy-UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/Gilroy-UltraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/Gilroy-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/Gilroy-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/Gilroy-RegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Gilroy-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Gilroy-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Gilroy-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Gilroy-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/Gilroy-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Gilroy-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/Gilroy-HeavyItalic.ttf") format("truetype");
+}
+
+html {
+  font-family: "Gilroy", sans-serif;
+}
+
+html .carousel-control-prev,
+html .carousel-control-next {
+  opacity: 1;
+}
+
+html .carousel-control-prev {
+  margin-left: -100px;
+}
+
+html .carousel-control-next {
+  margin-right: -100px;
+}
+
+html .btn-carousel {
+  background: #F7F7F7;
+  padding: 16px;
+  border-radius: 50px;
+  -webkit-box-shadow: 4px 4px 15px 4px #ccc;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 4px 4px 15px 4px #ccc;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+html .bg-orange {
+  background-color: #E58411;
+}
+
+html .text-orange {
+  color: #E58411;
+}
+
+html .text-cocho {
+  color: #1E1E1E;
+}
+
+html .text-orange-disable {
+  color: #E58411;
+  opacity: 0.3;
+}
+
+@media only screen and (min-width: 993px) {
+  html .navbar {
+    padding: 35px 0px;
+    background-color: transparent !important;
+  }
+  html .nav-item {
+    margin: 0px 32px;
+  }
+  html .app-bag {
+    margin-left: 64px;
+  }
+}
+
+html .navbar-brand {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+
+html .nav-item {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+html #header {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(86.13%, rgba(255, 255, 255, 0)), to(#FFFFFF)), url("../img/Header.png");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 86.13%, #FFFFFF 100%), url("../img/Header.png");
+  margin-top: -125px;
+  padding: 161px 0 524px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+html #header .header-title {
+  color: white;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+}
+
+html #header .header-subtitle {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  opacity: 0.8;
+}
+
+html #header form {
+  margin-top: 45px;
+  width: 344px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 50px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 0.86154px solid rgba(255, 255, 255, 0.6);
+}
+
+html #header input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: none;
+  margin: 0px 20px;
+  background: transparent;
+  color: #fff;
+}
+
+html #header input:focus {
+  outline: none;
+}
+
+html #header ::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+html #header :-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+html #header ::-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+html #header ::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+html #header :-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+html #header ::-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+html #header button {
+  font-size: 18px;
+  padding: 12px 18px;
+  border: 0px solid #E58411;
+  border-radius: 50%;
+  background: #E58411;
+  color: white;
+}
+
+html #app-reason {
+  margin: 120px 0px;
+}
+
+html #app-reason .app-reason-card {
+  margin-bottom: 30px;
+}
+
+html #app-reason .app-reason-card .app-reason-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #1E1E1E;
+}
+
+html #app-reason .app-reason-card .app-reason-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #1E1E1E;
+}
+
+html #app-reason .app-reason-card .app-reason-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 14px;
+  color: #1E1E1E;
+  opacity: 0.8;
+}
+
+html .more-info {
+  text-decoration: none;
+  color: #E58411;
+}
+
+html .more-info:hover {
+  color: #1E1E1E;
+}
+
+html #app-exp {
+  padding: 308px 0px 0px 0px;
+}
+
+html #app-exp .img-exp {
+  position: relative;
+  width: 629px;
+  height: 445px;
+  margin-left: -150px;
+  z-index: -1;
+  border-radius: 27px;
+}
+
+html #app-exp .img-exp-blur {
+  position: relative;
+  width: 555px;
+  height: 423px;
+  margin-left: -605px;
+  margin-top: 60px;
+  opacity: 0.5;
+  -webkit-filter: blur(50px);
+          filter: blur(50px);
+  border-radius: 49px;
+  z-index: -2;
+}
+
+html #app-exp .box {
+  position: relative;
+  width: 495px;
+  height: 301px;
+  margin-top: -363px;
+  margin-left: 61px;
+  background: #F7F7F7;
+  border-radius: 20px;
+  z-index: -3;
+}
+
+html #app-exp .app-exp-card {
+  padding: 64px;
+}
+
+html #app-exp .app-exp-card .app-exp-subtitle {
+  margin-bottom: 20px 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  color: #E58411;
+}
+
+@media only screen and (max-width: 960px) {
+  html #app-exp .app-exp-card .app-exp-subtitle {
+    margin-top: 120px !important;
+  }
+}
+
+html #app-exp .app-exp-card .app-exp-title {
+  margin: 0px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #1E1E1E;
+}
+
+html #app-exp .app-exp-card .app-exp-content {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 185%;
+  color: #1E1E1E;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 960px) {
+  html #app-mat {
+    padding: 270px 0px 308px 0px;
+  }
+}
+
+html #app-mat {
+  padding: 108px 0px 308px 0px;
+}
+
+@media only screen and (min-width: 960px) {
+  html #app-mat .app-mat-card {
+    margin-top: 60px;
+  }
+}
+
+html #app-mat .app-mat-card {
+  padding: 64px;
+}
+
+html #app-mat .app-mat-card .app-mat-subtitle {
+  margin-bottom: 20px 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  color: #E58411;
+}
+
+@media only screen and (max-width: 960px) {
+  html #app-mat .app-mat-card .app-mat-subtitle {
+    margin-top: 120px !important;
+  }
+}
+
+html #app-mat .app-mat-card .app-mat-title {
+  margin: 0px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #1E1E1E;
+}
+
+html #app-mat .app-mat-card .app-mat-content {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 185%;
+  color: #1E1E1E;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+html #app-mat .img-1 {
+  position: absolute;
+  margin-left: 64px;
+  z-index: -1;
+  border-radius: 27px;
+}
+
+html #app-mat .img-2 {
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 276px;
+  z-index: -1;
+  border-radius: 27px;
+}
+
+html #app-mat .img-3 {
+  position: absolute;
+  margin-top: 148px;
+  margin-left: 329px;
+  z-index: -1;
+  border-radius: 27px;
+}
+
+html #app-mat .img-1-blur {
+  position: absolute;
+  width: 176px;
+  height: 183px;
+  margin-top: 67px;
+  margin-left: 87px;
+  opacity: 0.5;
+  -webkit-filter: blur(50px);
+          filter: blur(50px);
+  z-index: -2;
+  border-radius: 27px;
+}
+
+html #app-mat .img-2-blur {
+  position: absolute;
+  margin-left: 87px;
+  margin-top: 314px;
+  width: 176.69px;
+  height: 301.37px;
+  opacity: 0.5;
+  -webkit-filter: blur(50px);
+          filter: blur(50px);
+  z-index: -2;
+  border-radius: 27px;
+}
+
+html #app-mat .img-3-blur {
+  position: absolute;
+  width: auto;
+  height: 423px;
+  margin-top: 200px;
+  margin-left: 356px;
+  opacity: 0.5;
+  -webkit-filter: blur(50px);
+          filter: blur(50px);
+  z-index: -2;
+  border-radius: 27px;
+}
+
+html #app-best-selling {
+  padding: 50px 0px;
+  background: #F7F7F7;
+}
+
+html #app-best-selling .app-best-selling-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #1E1E1E;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+html #app-best-selling .app-best-selling-category ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+html #app-best-selling .app-best-selling-category li {
+  float: left;
+  display: block;
+  color: #1E1E1E;
+  text-align: center;
+  padding: 7px 2px;
+}
+
+html #app-best-selling .app-best-selling-category li a {
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 32px;
+  color: #1E1E1E;
+  opacity: 0.8;
+}
+
+html #app-best-selling .app-best-selling-category li a.active {
+  background: #fff;
+  opacity: 1;
+}
+
+html #app-best-selling .best-selling {
+  margin-top: 130px;
+}
+
+html #app-best-selling .best-selling .card-best {
+  border-radius: 20px;
+  padding: 27px 22px;
+}
+
+html #app-best-selling .best-selling .card-best .card-best-subtitle {
+  font-weight: 300;
+  font-size: 16.7554px;
+  line-height: 20px;
+  margin-bottom: 6px;
+  color: #8D8D8D;
+}
+
+html #app-best-selling .best-selling .card-best .card-best-title {
+  font-weight: 700;
+  font-size: 21.3251px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  color: #0D1B39;
+}
+
+html #app-best-selling .best-selling .card-best .card-rate {
+  margin-bottom: 30px;
+}
+
+html #app-best-selling .best-selling .card-best .price {
+  font-weight: 500;
+  color: #1E1E1E;
+}
+
+html #app-best-selling .best-selling .card-best .price .exc {
+  font-size: 15.2322px;
+  line-height: 18px;
+}
+
+html #app-best-selling .best-selling .card-best .price .nominal {
+  font-size: 21.3251px;
+  line-height: 26px;
+}
+
+html #app-best-selling .best-selling .card-best .btn-add {
+  font-size: 19px;
+  padding: 6px 12px;
+  color: #fff;
+  background: #0D1B39;
+  border-radius: 50%;
+}
+
+html #app-tes {
+  padding-bottom: 245px;
+}
+
+html #app-tes .app-tes-subtitle {
+  margin-bottom: 20px 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  color: #E58411;
+  text-align: center;
+}
+
+html #app-tes .app-tes-title {
+  margin: 0px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #1E1E1E;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+html #app-tes .app-card {
+  border-radius: 18.1182px;
+}
+
+html #app-tes .app-card.card-1 {
+  padding: 252px 18px 18px 18px;
+  background-image: url("../img/card-1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+html #app-tes .app-card.card-2 {
+  padding: 252px 18px 18px 18px;
+  background-image: url("../img/card-2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+html #app-tes .app-card.card-3 {
+  padding: 252px 18px 18px 18px;
+  background-image: url("../img/card-3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+html #app-tes .app-card.card-4 {
+  padding: 252px 18px 18px 18px;
+  background-image: url("../img/card-1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+html #app-tes .app-card .card-testi {
+  border-radius: 18.1182px;
+  padding: 0px 42px 18px 42px;
+}
+
+html #app-tes .app-card .card-testi .card-testi-avatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #eee;
+  margin-top: -45px;
+}
+
+html #app-tes .app-card .card-testi .card-testi-avatar .card-avatar-1 {
+  position: relative;
+}
+
+html #app-tes .app-card .card-testi .card-testi-avatar .card-avatar-1-blur {
+  position: relative;
+  margin: 30px;
+}
+
+html #app-tes .app-card .card-testi .card-testi-user {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1E1E1E;
+  margin-bottom: 8px;
+}
+
+html #app-tes .app-card .card-testi .card-testi-job {
+  font-weight: 300px;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: center;
+  color: #1E1E1E;
+  opacity: 0.6;
+  margin-bottom: 22px;
+}
+
+html #app-tes .app-card .card-testi .card-testi-content {
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #1E1E1E;
+  opacity: 0.8;
+  margin-bottom: 28px;
+}
+
+html footer {
+  background: #F7F7F7;
+}
+
+html footer #footer-top {
+  padding: 118px 0px 60px 0px;
+}
+
+html footer #footer-top .footer-top-card {
+  margin-bottom: 20px;
+}
+
+html footer #footer-top .footer-top-card .footer-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  margin-bottom: 29px;
+  color: #1E1E1E;
+}
+
+html footer #footer-top .footer-top-card .footer-content {
+  max-width: 293px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  /* or 24px */
+  color: #1E1E1E;
+}
+
+html footer #footer-top .footer-top-card .footer-subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  letter-spacing: -0.231818px;
+  color: #F6973F;
+}
+
+html footer #footer-top .footer-top-card .footer-subcontent ul {
+  list-style: none;
+  padding: 0;
+}
+
+html footer #footer-top .footer-top-card .footer-subcontent ul li {
+  font-size: 15px;
+  line-height: 160%;
+  margin-bottom: 16px;
+  color: #1E1E1E;
+  opacity: 0.8;
+}
+
+html footer #footer-bottom {
+  padding: 58px 0px;
+}
+
+html footer #footer-bottom .copyright {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #1E1E1E;
+  opacity: 0.5;
+}
+
+html footer #footer-bottom a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #1E1E1E;
+  margin-left: 40px;
+}
+
+html footer #footer-bottom a:hover {
+  color: #E58411;
+}
+/*# sourceMappingURL=main.css.map */
