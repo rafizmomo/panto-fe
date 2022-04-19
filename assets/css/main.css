@@ -133,14 +133,6 @@ html .carousel-control-next {
   opacity: 1;
 }
 
-html .carousel-control-prev {
-  margin-left: -100px;
-}
-
-html .carousel-control-next {
-  margin-right: -100px;
-}
-
 html .btn-carousel {
   background: #F7F7F7;
   padding: 16px;
@@ -167,6 +159,10 @@ html .text-cocho {
 html .text-orange-disable {
   color: #E58411;
   opacity: 0.3;
+}
+
+html .img-over {
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 993px) {

@@ -55,12 +55,12 @@ html{
 
     }
 
-    .carousel-control-prev{
-        margin-left: -100px;
-    }
-    .carousel-control-next{
-        margin-right: -100px;
-    }
+    // .carousel-control-prev{
+    //     margin-left: -75px;
+    // }
+    // .carousel-control-next{
+    //     margin-right: -75px;
+    // }
 
     .btn-carousel{
         background: #F7F7F7;
@@ -84,6 +84,9 @@ html{
     .text-orange-disable{
         color:#E58411;
         opacity: 0.3;
+    }
+    .img-over{
+        overflow: hidden;
     }
 
     @media only screen and (min-width: 993px) {
