@@ -48,6 +48,7 @@
 html{
     font-family: "Gilroy", sans-serif;
     
+    overflow-x: hidden;
 
       .carousel-control-prev,
     .carousel-control-next {
@@ -86,7 +87,9 @@ html{
         opacity: 0.3;
     }
     .img-over{
-        overflow: hidden;
+        width:100%;
+        white-space:nowrap;
+        overflow:hidden;
     }
 
     @media only screen and (min-width: 993px) {
