@@ -214,6 +214,18 @@ html #header .header-title {
   text-transform: capitalize;
 }
 
+@media only screen and (max-width: 600px) {
+  html #header .header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+  }
+}
+
 html #header .header-subtitle {
   color: white;
   font-weight: 300;
@@ -298,6 +310,30 @@ html #app-reason {
 
 html #app-reason .app-reason-card {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  html #app-reason .app-reason-card .app-reason-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;
+    color: #1E1E1E;
+  }
+  html #app-reason .app-reason-card .app-reason-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+  }
+  html #app-reason .app-reason-card .app-reason-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    color: #1E1E1E;
+    opacity: 0.8;
+  }
 }
 
 html #app-reason .app-reason-card .app-reason-title {
@@ -441,6 +477,23 @@ html #app-mat .app-mat-card .app-mat-subtitle {
 @media only screen and (max-width: 960px) {
   html #app-mat .app-mat-card .app-mat-subtitle {
     margin-top: 120px !important;
+    font-size: 16px;
+  }
+  html #app-mat .app-mat-card .app-mat-title {
+    margin: 0px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #1E1E1E;
+  }
+  html #app-mat .app-mat-card .app-mat-content {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 185%;
+    color: #1E1E1E;
+    opacity: 0.8;
+    margin-bottom: 24px;
   }
 }
 
@@ -527,6 +580,15 @@ html #app-mat .img-3-blur {
 html #app-best-selling {
   padding: 50px 0px;
   background: #F7F7F7;
+}
+
+@media only screen and (max-width: 600px) {
+  html #app-best-selling .app-best-selling-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;
+    color: #1E1E1E;
+  }
 }
 
 html #app-best-selling .app-best-selling-title {
@@ -625,6 +687,20 @@ html #app-best-selling .best-selling .card-best .btn-add {
 
 html #app-tes {
   padding-bottom: 245px;
+}
+
+@media only screen and (max-width: 600px) {
+  html #app-tes .app-tes-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;
+  }
+  html #app-tes .app-tes-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
 }
 
 html #app-tes .app-tes-subtitle {
